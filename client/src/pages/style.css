@@ -1,0 +1,138 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.App .container {
+  width: 1024px;
+}
+
+.container .login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #e70f49;
+  background-color: #e87292;
+}
+
+.container h1 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: white;
+  width: 200px;
+  gap: 20px;
+  border-radius: 7px;
+}
+
+.container input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.container button {
+  padding: 10px;
+  border: none;
+  background-color: #e70f49;
+  color: white;
+  cursor: pointer;
+}
+
+.container p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.container span {
+  font-size: 12px;
+  text-align: center;
+  color: gray;
+}
+
+.container .link {
+  text-decoration: none;
+}
+
+/*NAVBAR*/
+
+.navbar .container {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 120px;
+}
+
+.navbar .container h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.navbar .container span {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.navbar .container .write {
+  background-color: #e87292;
+  width: 50px;
+  font-size: 14px;
+  font-weight: 300;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.navbar .container .write:hover {
+  background-color: white;
+  color: #e70f49;
+  border: 1px solid #e70f49;
+}
+
+/*FOOTER*/
+
+footer {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #e87292;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img {
+    height: 50px;
+}
+
+/*HOME*/
+
+.home .posts {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 158px;
+}
+
+.home .posts .post {
+    display: flex;
+}

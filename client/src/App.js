@@ -6,9 +6,7 @@ import Single from "./pages/Single";
 import Write from "./pages/Write";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
-
-import "./App.css";
+import "./pages/style.css";
 
 const Layout = () => {
   return (
